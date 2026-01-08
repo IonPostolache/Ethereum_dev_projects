@@ -1,0 +1,13 @@
+
+# Remix Desktop internal data
+.deps/
+.states/
+
+# Compiled artifacts
+artifacts/
+
+# Environment / secrets
+.env
+
+# Ignore examples in contracts
+ch*/contracts/examples
