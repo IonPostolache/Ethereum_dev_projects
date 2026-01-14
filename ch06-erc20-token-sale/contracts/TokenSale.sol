@@ -24,6 +24,7 @@ contract TokenSale {
         uint tokensToTransfer = msg.value/tokenPriceInWei;
         uint remainder = msg.value - tokensToTransfer * tokenPriceInWei;
         token.transferFrom(tokenOwner, msg.sender, tokensToTransfer * 10 ** token.decimals());
-        payable(msg.sender).transfer(remainder);
+        (bool success, ) = payable(msg.sender).call{value: remainder}("");
+        require(success, "ETH refund failed");
     }
 }
