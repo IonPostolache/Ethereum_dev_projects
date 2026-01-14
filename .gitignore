@@ -10,4 +10,4 @@ artifacts/
 .env
 
 # Ignore examples in contracts
-ch*/contracts/examples
+# ch*/contracts/examples
