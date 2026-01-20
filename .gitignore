@@ -1,13 +1,82 @@
+# =========================
+# Dependencies / Package managers
+# =========================
+node_modules/
+.pnpm-store/
+.yarn/
 
-# Remix Desktop internal data
+# =========================
+# Hardhat / Solidity
+# =========================
+artifacts/
+cache/
+coverage/
+coverage.json
+typechain/
+gasReporterOutput.json
+
+# =========================
+# Foundry / Remix (optional but future-proof)
+# =========================
 .deps/
 .states/
+out/
+broadcast/
 
-# Compiled artifacts
-artifacts/
+# =========================
+# Build / Deploy outputs
+# =========================
+dist/
+build/
+bundle/
 
-# Environment / secrets
+# =========================
+# Generated types (if used)
+# =========================
+types/
+
+# =========================
+# Environment / Secrets
+# =========================
 .env
+.env.*
+!.env.example
 
-# Ignore examples in contracts
-# ch*/contracts/examples
+# =========================
+# TypeScript
+# =========================
+*.tsbuildinfo
+
+# =========================
+# Logs
+# =========================
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# Temp
+# =========================
+tmp/
+temp/
+.tmp/
+.temp/
+
+# =========================
+# OS / Editor
+# =========================
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# =========================
+# VS Code
+# =========================
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json

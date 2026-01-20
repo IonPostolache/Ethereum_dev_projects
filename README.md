@@ -1,13 +1,41 @@
 
-
 # Solidity Learning Projects
 
-This repository contains Solidity smart contracts written while learning
-'Become An Ethereum Blockchain Developer'.
 
-The projects and examples are intentionally small and focused.
-Each folder demonstrates specific concepts rather than full production systems.
+This repository contains **hands-on Solidity projects** built while following the course  
+**“Become an Ethereum Blockchain Developer”** (October 2023).
 
+Projects progress from Ethereum fundamentals to more advanced topics such as **ERC20 tokens, smart wallets, and NFTs**.  
+Each chapter focuses on a specific concept and is intentionally **small, clear, and educational**, rather than production-ready.
 
+---
 
+## What this repository demonstrates
+
+- Writing **Solidity smart contracts**
+- Understanding Ethereum fundamentals (accounts, gas, ownership)
+- Implementing **ERC20 and ERC721 (NFT)** standards
+- Using modern Ethereum tooling:
+  - **Remix IDE** (early chapters)
+  - **Hardhat v3 + TypeScript + Viem** (later chapters)
+- Writing unit tests, deployment scripts, and verifying contracts
+- Deploying contracts to **Ethereum testnets (Sepolia)**
+
+> **Note**  
+> Parts of the original course use **outdated tooling** (e.g. Truffle, older Hardhat versions).  
+> Where applicable, these were replaced with **modern, up-to-date workflows**.
+
+---
+
+## Repository structure
+
+Each folder represents a chapter-level project:
+
+- `ch03-the-blockchain-messenger`
+- `ch04-smart-money-deposit-and-withdrawals`
+- `ch05-smart-wallet`
+- `ch06-erc20-token-sale`
+- `ch07-non-fungible-token-nft`
+
+Each chapter contains Solidity contracts and a short README describing the implemented features.
 
