@@ -22,6 +22,11 @@ gasReporterOutput.json
 .states/
 out/
 broadcast/
+# Ignores development broadcast logs
+!/broadcast
+
+# Docs
+docs/
 
 # =========================
 # Build / Deploy outputs
@@ -80,3 +85,5 @@ Thumbs.db
 !.vscode/extensions.json
 !.vscode/tasks.json
 !.vscode/launch.json
+
+
