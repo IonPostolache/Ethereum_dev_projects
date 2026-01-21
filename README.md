@@ -1,11 +1,10 @@
 
 # Solidity Learning Projects
 
+This repository contains **hands-on Solidity projects** created while following the course  
+**“Become an Ethereum Blockchain Developer”** (October 2023), with updates and adaptations to reflect **modern Ethereum development practices**.
 
-This repository contains **hands-on Solidity projects** built while following the course  
-**“Become an Ethereum Blockchain Developer”** (October 2023).
-
-Projects progress from Ethereum fundamentals to more advanced topics such as **ERC20 tokens, smart wallets, and NFTs**.  
+The projects progress from Ethereum fundamentals to more advanced topics such as **ERC20 tokens, smart wallets, and NFTs**.  
 Each chapter focuses on a specific concept and is intentionally **small, clear, and educational**, rather than production-ready.
 
 ---
@@ -17,7 +16,8 @@ Each chapter focuses on a specific concept and is intentionally **small, clear, 
 - Implementing **ERC20 and ERC721 (NFT)** standards
 - Using modern Ethereum tooling:
   - **Remix IDE** (early chapters)
-  - **Hardhat v3 + TypeScript + Viem** (later chapters)
+  - **Hardhat v3 + TypeScript + Viem**
+  - **Foundry (Forge & Scripts)** for testing and deployment
 - Writing unit tests, deployment scripts, and verifying contracts
 - Deploying contracts to **Ethereum testnets (Sepolia)**
 
@@ -37,5 +37,4 @@ Each folder represents a chapter-level project:
 - `ch06-erc20-token-sale`
 - `ch07-non-fungible-token-nft`
 
-Each chapter contains Solidity contracts and a short README describing the implemented features.
-
+Each chapter contains Solidity contracts and a short README describing the implemented features and tooling used.
